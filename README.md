@@ -8,5 +8,5 @@ This app talks to the frontpage example server, available here: https://github.c
 
 ## Libraries
 
-for IDE: https://github.com/jimkyndemeyer/js-graphql-intellij-plugin
-for code generate: https://github.com/apollographql/apollo-tooling
+- for IDE: https://github.com/jimkyndemeyer/js-graphql-intellij-plugin
+- for code generate: https://github.com/apollographql/apollo-tooling
