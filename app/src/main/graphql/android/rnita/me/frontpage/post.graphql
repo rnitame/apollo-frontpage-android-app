@@ -1,0 +1,10 @@
+fragment PostFragment on Post {
+    id
+    title
+    author {
+        id
+        firstName
+        lastName
+    }
+    votes
+}

@@ -1,0 +1,23 @@
+query posts {
+    posts {
+        ...PostFragment
+    }
+}
+
+query author($id: Int!) {
+    author(id: $id) {
+        ...AuthorFragment
+    }
+}
+
+mutation upvotePost($postId: Int!) {
+    upvotePost(postId: $postId) {
+        ...PostFragment
+    }
+}
+
+subscription postUpvoted {
+    postUpvoted {
+        ...PostFragment
+    }
+}
